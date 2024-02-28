@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa6";
 import { MdOutlineDone } from "react-icons/md";
 const Card = ({ index, cardData }) => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full rounded-xl py-2 my-4 bg-white border-transparent border-1 hover:shadow-sm hover:border-slate-700/2">
+    <div className="relative flex flex-col items-center justify-center w-full rounded-xl py-2 my-4 bg-white border border-transparent hover:border-slate-200 duration-300 shadow-sm hover:shadow-md">
       <div className="absolute top-2 z-10 flex justify-normal items-center w-full">
         {cardData.bestChoice && (
           <div className="flex justify-center items-center gap-2 bg-[#FF7724] text-white px-2 py-1 rounded-r-lg">
